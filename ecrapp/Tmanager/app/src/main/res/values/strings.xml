@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Tmanager</string>
+    <string-array name="ecr_commands_array">
+        <item>Select Ecr Command</item> <!-- Placeholder item -->
+        <item>Registration</item>
+        <item>Authorisation</item>
+        <item>Reversal</item>
+        <item>Refund</item>
+        <item>See all</item>
+    </string-array>
+    <string name="registration">Registration</string>
+    <string name="authorisation">Authorisation</string>
+    <string name="control_field">Control Field</string>
+    <string name="data_block">Data Block</string>
+    <string-array name="config_byte_values">
+        <item>Standard Configuration (0x00)</item>
+        <item>Terminal Identification (0x01)</item>
+        <item>Merchant ID (0x02)</item>
+        <item>Transaction Type (0x03)</item>
+        <item>Communication Settings (0x04)</item>
+        <item>Terminal Type (0x05)</item>
+        <item>Currency Settings (0x06)</item>
+        <item>PIN Settings (0x07)</item>
+        <item>Authorization Settings (0x08)</item>
+        <item>Receipt Settings (0x09)</item>
+        <item>Network Settings (0x0A)</item>
+    </string-array>
+
+    <string-array name="config_byte_values_1">
+        <item>Standard Configuration (0x00)</item>
+        <item>Terminal Identification (0x01)</item>
+        <item>Merchant ID (0x02)</item>
+        <item>Transaction Type (0x03)</item>
+        <item>Communication Settings (0x04)</item>
+        <item>Terminal Type (0x05)</item>
+        <item>Currency Settings (0x06)</item>
+        <item>PIN Settings (0x07)</item>
+        <item>Authorization Settings (0x08)</item>
+        <item>Receipt Settings (0x09)</item>
+        <item>Network Settings (0x0A)</item>
+    </string-array>
+
+    <string-array name="maintenance_array">
+        <item>Select Maintenance Option</item> <!-- Placeholder item -->
+        <item>Initialization</item>
+        <item>Extended Diagnosis</item>
+        <item>End of day</item>
+        <item>Read Card</item>
+        <item>See all</item>
+    </string-array>
+
+    <string-array name="configuration_array">
+        <item>Select Configuration Option</item> <!-- Placeholder item -->
+        <item>Connection</item>
+        <item>Currency</item>
+        <item>Card data</item>
+        <item>Language</item>
+        <item>See all</item>
+    </string-array>
+    <string-array name="connection_type_array">
+        <item>TCP/IP</item>
+        <!-- Add more items if needed -->
+    </string-array>
+</resources>

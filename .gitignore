@@ -1,0 +1,50 @@
+# Compiled Android files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Zip archives
+*.zip
+*.tar.gz
+*.rar
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Duplicate folders
+ecrapp (2)/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak

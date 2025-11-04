@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EcrSimul"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+    <!-- Blue Placeholder for EcrSimul -->
+    <View
+        android:id="@+id/placeholder_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="#70B9E4"/>
+
+    <!-- Ecr Commands Dropdown -->
+    <Spinner
+        android:id="@+id/ecr_commands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/spinner_background"
+        android:spinnerMode="dropdown" />
+
+    <!-- Maintenance Dropdown -->
+    <Spinner
+        android:id="@+id/maintenance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/spinner_background"
+        android:spinnerMode="dropdown" />
+
+    <!-- Configuration Dropdown -->
+    <Spinner
+        android:id="@+id/configuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/spinner_background"
+        android:spinnerMode="dropdown" />
+
+    <!-- Blue Placeholder for EcrSimul -->
+    <View
+        android:id="@+id/placeholder_view_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#70B9E4"/>
+
+</LinearLayout>
